@@ -17,31 +17,26 @@
 		<spring-cloud-alibaba-version>2.2.6.RELEASE</spring-cloud-alibaba-version>
 		<java.version>1.8</java.version>
 		<spring-cloud.version>2020.0.4</spring-cloud.version>
-		<swagger-version>2.2.2</swagger-version>
+		<swagger-version>2.9.2</swagger-version>
 	</properties> 
 	<dependencies>
-       <!-- 集成nacos 服务发现 -->
+       <!-- 集成nacos 服务发现
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-        </dependency>
+        </dependency> -->
 
-        <!-- 集成nacos 配置中心 -->
+        <!-- 集成nacos 配置中心 
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-        </dependency>
-        
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-        </dependency>
-        <!--gateway网关-->
+        </dependency>-->
+        <!--gateway网关
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-gateway</artifactId>
-        </dependency>
-        
+        </dependency>-->
+        <!-- 
         <dependency>
 	      <groupId>org.springframework.boot</groupId>
 	      <artifactId>spring-boot-starter-data-mongodb-reactive</artifactId>
@@ -49,7 +44,7 @@
 	    <dependency>
 	      <groupId>org.springframework.boot</groupId>
 	      <artifactId>spring-boot-starter-data-redis-reactive</artifactId>
-	    </dependency>
+	    </dependency> -->
         <!--引入swagger -->
 		<dependency>
 			<groupId>io.springfox</groupId>
@@ -74,8 +69,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 	</dependencies>
 

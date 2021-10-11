@@ -1,13 +1,13 @@
-package com.carwash;
+package com.wu;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CarwashApplication {
+public class CommonServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CarwashApplication.class, args);
+		SpringApplication.run(CommonServiceApplication.class, args);
 	}
 	
 }
